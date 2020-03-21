@@ -10,3 +10,15 @@ getting mocha, chai, typesceipt, ts-node to register correctly.
 * mocha
 * ts-mocha
 * chai
+
+## Running
+```
+$ git clone git@github.com:rightisleft/typescript-mocha-test-scaffold.git
+$ cd typescript-mocha-test-scaffold.git
+$ npm i 
+$ npm test
+```
+
+### Known Issues
+
+* Currently need to include the expect import into each spec
